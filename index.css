@@ -1,0 +1,293 @@
+body{
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+
+.head p{
+    background-color: #022033f3;
+    color: rgb(249, 247, 247);
+    text-align: center;
+    font-size: auto;
+    margin-top: 0%;
+    margin-bottom: 6px;
+    border-radius: 5px;
+    display:grid;
+    width: 100%;
+
+    
+
+}
+
+p{
+    color: black;
+}
+.head{
+    width: 100%;
+    display: grid;
+}
+
+h1{
+    
+text-align: center;
+    font-size: 35px;
+    
+    
+    justify-content: center;
+    margin: 0%;
+   
+
+
+    
+   
+
+    
+}
+.logo{ 
+    background-color: #075789f3;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  
+    flex-wrap: wrap;
+    
+    
+    
+    color: #ffffff;
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+    
+}
+.logo-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.about{
+    background-color: #011f2bc2;
+    font-size:2ch ;
+    
+    margin-bottom: 10px;
+    width: 100%;
+    color: #eceef1;
+    
+}
+.about p{
+    color: #F3F4F6;
+}
+.search input{
+    width: 500px;
+    border-radius: 10px;
+    margin-bottom: 17px;
+    margin-top: 20px;
+    height: 20px;
+}
+.search p{
+    display: block;
+    color: black;
+}
+.search button {
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.search{
+display: flex;
+gap: 10px;
+}
+.cart-count{
+    
+    background-color: #0d0e12;
+    width: 80px;
+    color: #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    height: 70px;
+    margin:0px;
+    margin-left: 20px;
+
+    
+    
+
+}
+.cart-count p{
+    margin: 0px;
+    color: #F3F4F6;
+}
+
+
+h2{
+    text-align: center;
+    color: white;
+    background-color: rgb(15, 49, 37);
+    display: block;
+}
+.img img{
+
+    margin-bottom: 50px;
+    height: 400px;
+    width: 200px;
+    
+
+}
+.img {
+    background-color: white;
+    display: flex;
+    
+}
+.homebar{
+    display: flex;
+    gap: 50px;
+    font-size: 2ch;
+    flex-wrap: wrap;
+    background-color: #0d0e12;
+    color: #F3F4F6;
+    height: 40px;
+    justify-items: center;
+}
+.homepage{
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+} 
+.productpage{
+    margin-top: 10px;
+    cursor: pointer;
+}
+.cartpage{
+    margin-top: 10px;
+    cursor: pointer;
+}
+.div {
+        background-size: cover;
+    background-position: center;
+}
+.shoping{
+    display: block;
+}
+
+
+.banner img{
+    width: 100%;
+    height:700px;
+    background-size: cover;
+    background-position: center;
+}
+.shop-btn{
+    position:absolute;
+    left:12%;
+    top:65%;
+    padding:12px 30px;
+    background:#ff6600;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+}
+.shirts{
+    box-sizing: border-box;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width:auto;
+    gap:15px;
+    
+}
+.jeans{
+    box-sizing: border-box;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+.shoes{
+    box-sizing: border-box;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+#product-details P{
+    
+    font-size: 3ch;
+    margin-left: 50px;
+    margin-top: 50px;
+    
+
+
+}
+#product-details{
+    margin-top: 0px;
+}
+#product-details button{
+    margin-left: 10px;
+}
+
+
+
+.visit p{
+    background-color: rgb(36, 40, 40);
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0;
+    margin: 0%;
+    display: block;
+    width: 100%;
+    
+    
+}
+.address{
+    margin: 0%;
+    
+    display: flex;
+    border: 2px solid black;
+    background-color: rgb(36, 40, 40);
+    color: aliceblue;
+    height: 150px;
+    width: 100%;
+    justify-content: space-between;
+    justify-items: flex;
+
+    
+    
+}
+ .sale p{
+    color: rgb(15, 14, 14);
+}
+
+.cart-count .count{
+    text-align: center;
+    color: #f4f5f7;
+    
+    height: 2px;
+    margin-top: 0px;
+
+
+}
+.cart-details{
+    height: 300px;
+    width: 400px;
+    
+    background-color: aliceblue;
+    margin-bottom: 20px;
+}
+.cart-details p{
+    background-color: #2563eb;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 8px;
+    
+    
+}
+.confirmbut{
+    margin-top: 20px;
+    margin-left: 150px;
+    background-color: orange;
+}
+
